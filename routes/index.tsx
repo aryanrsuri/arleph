@@ -9,38 +9,44 @@ const externalLinks = [
 export default function App() {
   return (
     <>
-      <Header />
-      <div class="screen index">
-        <p class="logo">
-          <img src="./assets/logo.svg" width="70" height="70" title="Aleph.js" />
-          <img src="./assets/solid.svg" width="70" height="70" title="SolidJS" />
-        </p>
-        <h1>
-          The Fullstack Framework in Deno.
-        </h1>
-        <p>
-          <strong>Aleph.js</strong> gives you the best developer experience for building web applications<br />{" "}
-          with modern toolings. <label>SolidJS experimental version</label>.
-        </p>
-        <div class="external-links">
-          {externalLinks.map(([text, href]) => (
-            <a
-              href={href}
-              target="_blank"
-            >
-              {text}
-            </a>
-          ))}
+      <main class="w-screen h-screen bg-zinc-50 ">
+        <div class="flex flex-col p-20 w-full justify-between h-fit ">
+          <div class="flex flex-row">
+            <h1 class=" text-5xl font-bold text-slate-800 tracking-tighter">
+              Hel
+            </h1>
+            <h1 class=" text-5xl font-bold text-slate-600 tracking-tighter">
+              lo, I'
+            </h1>
+            <h1 class=" text-5xl font-bold text-slate-800 tracking-tighter">
+              m Ary
+            </h1>
+
+            <h1 class=" text-5xl font-bold text-slate-600 tracking-tighter">
+              an,
+            </h1>
+          </div>
+
+          <div class="flex">
+            <h1 class=" text-2xl font-semibold text-yellow-400 tracking-tighter">
+              Engineer.
+            </h1>
+          </div>
         </div>
-        <nav>
-          <a
-            role="button"
-            href="/todos"
-          >
-            Todos App Demo
-          </a>
-        </nav>
-      </div>
+        <div class="flex p-20 w-full justify-between h-fit">
+          <div>
+            <h2 class="text-3xl font-semibold text-emerald-500 tracking-tighter hover:underline hover:decoration-8 hover:decoration-emerald-500 ">
+              projects
+            </h2>
+            <h2 class="text-3xl font-semibold text-emerald-500 tracking-tighter hover:underline hover:decoration-8 hover:decoration-emerald-500 ">
+              resume
+            </h2>
+            <h2 class="text-3xl font-semibold text-emerald-500 tracking-tighter hover:underline hover:decoration-8 hover:decoration-emerald-500 ">
+              links
+            </h2>
+          </div>
+        </div>
+      </main>
     </>
   );
 }
