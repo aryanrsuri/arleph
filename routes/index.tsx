@@ -39,7 +39,7 @@ export default function App() {
               projects
             </h2>
             <h2 class="text-3xl font-semibold text-emerald-500 tracking-tighter hover:underline hover:decoration-8 hover:decoration-emerald-500 ">
-              resume
+
             </h2>
             <h2 class="text-3xl font-semibold text-emerald-500 tracking-tighter hover:underline hover:decoration-8 hover:decoration-emerald-500 ">
               links
